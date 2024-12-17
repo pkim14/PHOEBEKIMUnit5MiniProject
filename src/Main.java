@@ -2,14 +2,50 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Time time1 = new Time(8, 9, 58);
+        System.out.println(time1);
+        time1.tick();
+        System.out.println(time1);
+        time1.tick();
+        System.out.println(time1);
+        time1.tick();
+        System.out.println(time1);
+        time1.tick();
+        System.out.println(time1);
+        time1.tick();
+        time1.tick();
+        time1.tick();
+        time1.tick();
+        time1.tick();
+        time1.tick();
+        time1.tick();
+        time1.tick();
+        System.out.println(time1);
+        Time time2 = new Time(15, 59, 58);
+        System.out.println(time2);
+        time2.tick();
+        System.out.println(time2);
+        time2.tick();
+        System.out.println(time2);
+        time2.tick();
+        System.out.println(time2);
+        Time time3 = new Time(23, 59, 58);
+        System.out.println(time3);
+        time3.tick();
+        System.out.println(time3);
+        time3.tick();
+        System.out.println(time3);
+        time3.tick();
+        System.out.println(time3);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        Time time4 = new Time(10, 14, 43);
+        System.out.println(time4);
+        Time time5 = new Time(8, 30, 29);
+        time4.add(time5);
+        System.out.println(time4);
+        System.out.println(time5);
+        Time time6 = new Time(7, 20, 0);
+        time4.add(time6);
+        System.out.println(time4);
     }
-}
+    }
